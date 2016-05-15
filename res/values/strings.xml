@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Slide Puzzle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="slide_puzzle">Slide puzzle</string>
+    <string name="start_game">Touch image to start game.</string>
+    <string name="title_activity_options">Options</string>
+    <string name="start_new_game">New game</string>
+    <string name="last_results">Results</string>
+    <string name="clear_results">Clear results</string>
+    <string name="answer_clear_results">Do you want to clear results?</string>
+    <string name="rules">Rules</string>
+    <string name="about">About game</string>
+    <string name="exit_game">Exit</string>
+    <string name="back">Back</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saved">Saved</string>
+    <string name="deleted">Deleted</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="title_activity_new_game">NewGameActivity</string>
+    <string name="title_activity_clear_results">NewGameActivity</string>
+    <string name="title_activity_rules">RulesActivity</string>
+    <string name="title_activity_about_game">AboutGameActivity</string>
+    <string name="select_picture">Select image</string>
+    <string name="rules_of_the_game">You should move squares of cut picture to right places.</string>
+    <string name="about_author_and_game">2016. Maria Frolova \n All rights reserved.</string>
+    <string name="title_activity_equation">EquationActivity</string>
+    <string name="refresh">Refresh</string>
+    <string name="title_activity_cut_image">CutImageActivity</string>
+    <string name="photo">Show</string>
+    <string name="end_game">Do you want to play a new game?</string>
+    <string name="your_result">Your result: </string>
+    <string name="error">Some error occurred.</string>
+    <string name="spent_time">Spent time</string>
+    <string name="date">Date</string>
+    <string name="done">Done</string>
+    <string name="solve_equation">Resolve a mathematical equation</string>
+    <string name="title_activity_slide_image">SlideImageActivity</string>
+    <string name="select_image">Select image!</string>
+
+</resources>

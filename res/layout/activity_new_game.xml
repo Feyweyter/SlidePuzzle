@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_rounded"
+        android:onClick="onClickDownloadImage"
+        android:text="@string/select_picture"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/downloadedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="onClickGetSlideGame"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/text6"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+           android:layout_marginLeft="20dp"
+        android:background="@drawable/rectangle_rounded"
+        android:ems="10"
+        android:gravity="center"
+        android:onClick="onClickBack"
+        android:shadowRadius="5"
+        android:text="@string/back"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+</LinearLayout>

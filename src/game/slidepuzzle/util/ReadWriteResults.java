@@ -31,7 +31,7 @@ public class ReadWriteResults {
 			try {
 				file.createNewFile();
 			} catch (IOException e) {
-				//Toast.makeText(mContext, R.string.error, Toast.LENGTH_LONG).show();
+				Toast.makeText(mContext, R.string.error, Toast.LENGTH_LONG).show();
 			}
 		}
 
@@ -54,7 +54,7 @@ public class ReadWriteResults {
 			os.writeObject(records);
 			os.close();
 		} catch (Exception e) {
-			//Toast.makeText(mContext, R.string.error, Toast.LENGTH_LONG).show();
+			Toast.makeText(mContext, R.string.error, Toast.LENGTH_LONG).show();
 		}
 		return;
 	}

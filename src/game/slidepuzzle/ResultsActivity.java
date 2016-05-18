@@ -23,12 +23,13 @@ public class ResultsActivity extends SherlockActivity {
 				ViewGroup.LayoutParams.FILL_PARENT,
 				ViewGroup.LayoutParams.WRAP_CONTENT));
 		tableLayout.setStretchAllColumns(true);
+		tableLayout.setBackgroundResource(R.drawable.bg);
 
 		TableRow tableRow = new TableRow(this);
 
 		TextView textView = new TextView(this);
 		textView.setTextColor(Color.BLACK);
-		textView.setTextSize(12);
+		textView.setTextSize(20);
 		textView.setText(R.string.spent_time);
 		textView.setBackgroundColor(Color.YELLOW);
 		tableRow.addView(textView);
@@ -36,7 +37,7 @@ public class ResultsActivity extends SherlockActivity {
 		textView = new TextView(this);
 		textView.setText(R.string.date);
 		textView.setTextColor(Color.BLACK);
-		textView.setTextSize(12);
+		textView.setTextSize(20);
 		tableRow.addView(textView);
 		textView.setBackgroundColor(Color.YELLOW);
 

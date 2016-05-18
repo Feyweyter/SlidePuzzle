@@ -12,6 +12,8 @@ import android.widget.ImageView;
 
 public class MainActivity extends SherlockActivity {
 
+	private boolean wasPressed = false;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -23,6 +25,7 @@ public class MainActivity extends SherlockActivity {
 
 		try {
 			startAnimation();
+			wasPressed = true;
 		} catch (InterruptedException e1) {
 			e1.printStackTrace();
 		}
@@ -35,7 +38,7 @@ public class MainActivity extends SherlockActivity {
 						Intent intent = new Intent(MainActivity.this,
 								OptionsActivity.class);
 						startActivity(intent);
-
+						finish();
 					}
 				}, 3500);
 
@@ -65,7 +68,9 @@ public class MainActivity extends SherlockActivity {
 	}
 
 	public void onClickIcon(View view) {
-		startThread();
+		if (!wasPressed) {
+			startThread();
+		}
 	}
 
 }
